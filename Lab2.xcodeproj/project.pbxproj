@@ -11,6 +11,8 @@
 		3FC985FA2BDD4CB900532D78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC985F92BDD4CB900532D78 /* ContentView.swift */; };
 		3FC985FC2BDD4CBA00532D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC985FB2BDD4CBA00532D78 /* Assets.xcassets */; };
 		3FC985FF2BDD4CBA00532D78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC985FE2BDD4CBA00532D78 /* Preview Assets.xcassets */; };
+		3FC986062BDD4F3600532D78 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC986052BDD4F3600532D78 /* CardView.swift */; };
+		3FC986082BDD674E00532D78 /* ThemeIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC986072BDD674E00532D78 /* ThemeIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3FC985F92BDD4CB900532D78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FC985FB2BDD4CBA00532D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC985FE2BDD4CBA00532D78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FC986052BDD4F3600532D78 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3FC986072BDD674E00532D78 /* ThemeIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		3FC985F62BDD4CB900532D78 /* Lab2 */ = {
 			isa = PBXGroup;
 			children = (
+				3FC986052BDD4F3600532D78 /* CardView.swift */,
 				3FC985F72BDD4CB900532D78 /* Lab2App.swift */,
 				3FC985F92BDD4CB900532D78 /* ContentView.swift */,
+				3FC986072BDD674E00532D78 /* ThemeIconView.swift */,
 				3FC985FB2BDD4CBA00532D78 /* Assets.xcassets */,
 				3FC985FD2BDD4CBA00532D78 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC985FA2BDD4CB900532D78 /* ContentView.swift in Sources */,
+				3FC986082BDD674E00532D78 /* ThemeIconView.swift in Sources */,
+				3FC986062BDD4F3600532D78 /* CardView.swift in Sources */,
 				3FC985F82BDD4CB900532D78 /* Lab2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
